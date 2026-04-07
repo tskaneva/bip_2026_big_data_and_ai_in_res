@@ -1,8 +1,143 @@
 # Erasmus+ BIP "Big Data and AI for the Digitalization of Renewable Energy Systems"
 
-Instructions and additional info to be added later.
+Physical Mobility - 06.04.2026 - 10.04.2026, Ruse Bulgaria
+Organizers: 
+- Department of Computer Systems and Technologies, University of Ruse, Bulgaria ([cst.uni-ruse.bg]())
+- IEEE Student Branch of University of Ruse ([https://sb-ieee.uni-ruse.bg/]()),
+- Laboratory "Digital Energy Systems 4.0" ([https://www.facebook.com/profile.php?id=61557608687599]())
 
+## Project Purpose
+This repository is part of the Big Data and AI in Renewable Energy Systems workshop and is designed to demonstrate how machine learning techniques can be applied to real-world energy-related problems.
 
+The project focuses on practical use cases such as:
+* Solar power forecasting
+* Energy price prediction
+* Load forecasting
+* Renewable energy optimization
+
+The goal is to bridge the gap between theoretical knowledge and practical implementation by providing hands-on examples using real and synthetic datasets.
+
+## Learning Objectives
+By working with this repository, you will:
+
+### Understand the ML Workflow
+- Data collection  
+- Data preprocessing & cleaning  
+- Feature engineering  
+- Model training  
+- Model evaluation  
+
+### Learn Time Series Forecasting
+- Working with timestamps  
+- Creating lag and rolling features  
+- Avoiding data leakage  
+- Using chronological train/test splits  
+
+### Work with Real Energy Data
+- Weather data  
+- PV (solar) generation  
+- Electricity load  
+- Energy market prices  
+- Etc.
+
+### Build Practical Skills
+- Python (pandas, NumPy, scikit-learn, matplotlib)  
+- Jupyter Notebooks & Google Colab  
+- Data visualization and analysis  
+
+### Train and Evaluate Models
+- Random Forest  
+- Gradient Boosting  
+- Baseline models
+
+## Repository Structure
+The repository is structured as follows:
+```bash
+.
+├── data/
+│ ├── sample_pv_data.csv
+│ ├── sample_weather_data.csv
+│ └── ...
+│
+├── workshop notebooks/
+│ ├── 01_solar_power_forecasting.ipynb
+│ ├── 04_real_data_electricity_price_forecasting_notebook.ipynb
+│ └── ...
+│
+├── datasets/ (optional)
+│ └── multi-year real-world datasets
+│
+├── presentation/
+│ └── workshop slides
+│
+└── README.md
+```
+
+### Folder Descriptions
+
+- **`data/`**  
+  Sample datasets used in introductory examples. Those datasets are synthetic and not real. Use with caution.
+
+- **`workshop notebooks/`**  
+  Main learning materials with step-by-step ML workflows.
+
+- **`datasets/`**  
+   Real datasets, used in the 4th workshop example.
+
+- **`presentation`**  
+  Workshop slides.
+
+---
+
+## What You Are Expected To Do
+
+This repository is **interactive** — not just for reading.
+
+### Try to:
+- Modify features  
+- Add new datasets  
+- Experiment with different models (e.g. XGBoost, LSTM)  
+- Tune hyperparameters  
+- Compare results  
+
+Your goal is NOT just to run the code — your goal is to **understand and improve it**
+
+---
+
+## License
+
+This project is intended for **educational and research purposes**.
+
+You are free to:
+- Use the code for learning and academic work  
+- Modify and extend the examples  
+
+---
+
+## Citation
+
+If you use this repository, please cite:
+
+```
+Kaneva, T. (2026).
+Big Data and AI in Renewable Energy Systems – Practical Use Cases.
+University of Ruse, Bulgaria.
+GitHub Repository: https://github.com/tskaneva/bip_2026_big_data_and_ai_in_res
+```
+
+---
+
+## Final Note for Students
+
+You are working on **real-world problems** used in modern energy systems.
+
+Don’t worry if:
+- your model is not perfect  
+- your results are not great
+
+That’s completely normal.
+
+---
 # Using Google Colab with Jupyter Notebooks from GitHub
 
 Google Colab lets you open, run, and edit Jupyter notebooks (`.ipynb` files) directly from GitHub — no local setup required.
@@ -54,8 +189,6 @@ os.chdir('/content/repo')
 ```
 
 > ⚠️ **Note:** If you clone the full repository, you might need to update the `BASE_URL` variable in each workbook (usually, step 2).
----
-
 ---
 
 ## Saving Changes
