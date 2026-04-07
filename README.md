@@ -1,6 +1,7 @@
 # Erasmus+ BIP "Big Data and AI for the Digitalization of Renewable Energy Systems"
 
 Physical Mobility - 06.04.2026 - 10.04.2026, Ruse Bulgaria
+
 Organizers: 
 - Department of Computer Systems and Technologies, University of Ruse, Bulgaria ([cst.uni-ruse.bg]())
 - IEEE Student Branch of University of Ruse ([https://sb-ieee.uni-ruse.bg/]()),
